@@ -1,19 +1,7 @@
 /**
- * Your Config File.
- * See https://xpresserjs.com/configuration/
+ * This config will be the default configuration that every server/subdomain will use
  */
 module.exports = {
-    // name of app
-    name: "Xpresser-Simple-App",
-    /**
-     * By default xpresser sets this for you.
-     */
-    server: {
-        domain: 'localhost',
-        // Server Port
-        port: 3000,
-    },
-
     /**
      * Path settings.
      */

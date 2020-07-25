@@ -6,10 +6,11 @@
   "repository": "https://github.com/xpresserjs/new-app-lite.git",
   "author": "xpresserjs",
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js"
+    "main": "nodemon servers/main.js",
+    "api": "nodemon servers/api.js"
   },
   "dependencies": {
+    "lodash": "^4.17.19",
     "xpresser": "^0.2.29"
   },
   "devDependencies": {

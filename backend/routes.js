@@ -1,11 +1,3 @@
-/**
- * See https://xpresserjs.com/router/
- * @type {Xpresser.Router}
- */
-const Route = $.router;
-
-/**
- * Url: "/" points to AppController@index
- * The index method of the controller.
- */
-Route.get('/', 'App@index').name('index');
+$.router.get('/', (http) => {
+    return http.send('<h1>Main Server index page.</h1>')
+})
